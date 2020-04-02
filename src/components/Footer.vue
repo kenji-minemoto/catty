@@ -1,6 +1,8 @@
 <template>
 <footer>
+  <pre>
   <font-awesome-icon icon="angle-double-up" id="icon" />
+  </pre>
   <div id="nav">
     <router-link to="/" class="tab" exact>Home</router-link>
     <router-link to="/myprofile" class="tab" exact>My Profile</router-link>
@@ -44,6 +46,11 @@
   height: 30px;
   width: 30px;
   color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+pre {
+  width: 100%;
 }
 
 </style>

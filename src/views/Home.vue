@@ -6,14 +6,14 @@
     <div>
       <h2 class="serivce">SERVICE</h2>
       <ul>
-        <li>
+        <li class="right-content">
           <h4>DESIGN</h4>
           <div>
             <b-spinner style="width: 3rem; height: 3rem;" label="Large Spinner" type="grow"></b-spinner>
           </div>
           <p>綿密なヒアリングに基づいたプランに沿って、イメージ通りのデザインを作成いたします。訪れたユーザーが迷うことないデザインを意識し、目的を達成できるユーザビリティの高いデザインを心がけています。いただいた仕様通り機械的に作業を行うのではなく、プランに合わせた最適な提案をさせていただきます。</p>
         </li>
-        <li>
+        <li class="left-content">
           <h4>CODING</h4>
           <div>
             <b-spinner style="width: 3rem; height: 3rem;" label="Large Spinner"></b-spinner>
@@ -32,8 +32,8 @@
 
 h2.serivce {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 150px;
+  padding-bottom: 100px;
   font-size: 50px;
   font-weight: 100;
 }
@@ -45,6 +45,17 @@ ul {
 ul li {
   list-style: none;
 }
+
+.right-content {
+  width: 45%;
+  float: right;
+}
+
+.left-content {
+  width: 45%;
+  float: none;
+}
+
 li h4 {
   text-align: center;
   font-size: 40px;

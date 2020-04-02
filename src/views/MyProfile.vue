@@ -25,8 +25,8 @@
   <div class="my-background">
     <h2>Background</h2>
     <ul>
-      <li>In 2018.<br>Graduated from University</li>
-      <li><br>~Presently.<br>3 years of experience in Web design and cording</li>
+      <li>In 2018.<br><br>Graduated from University</li>
+      <li><br><br>~Presently.<br><br>3 years of experience in Web design and cording</li>
     </ul>
   </div>
 </div>
