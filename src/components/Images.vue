@@ -3,7 +3,7 @@
     <b-row>
       <b-col>
         <div v-for="(item, i) in items" class="images" :key="i">
-          <b-img thumbnail fluid :src="item.imageUrl" alt="Image 1"></b-img>
+          <b-img thumbnail fluid :src="item.imageUrl"></b-img>
         </div>
       </b-col>
     </b-row>
@@ -106,5 +106,9 @@ export default {
 
 .col img {
   padding: 0;
+}
+
+.col img:hover {
+  opacity: 0.8;
 }
 </style>
