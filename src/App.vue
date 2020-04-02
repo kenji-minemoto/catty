@@ -3,7 +3,7 @@
   <Logo />
   <Nav />
   <b-container>
-    <transition mode=”out-in”>
+    <transition mode="out-in">
       <router-view />
     </transition>
   </b-container>
