@@ -1,14 +1,11 @@
 <template>
 <footer>
-  <pre>
-  <font-awesome-icon icon="angle-double-up" id="icon" />
-  </pre>
   <div id="nav">
     <router-link to="/" class="tab" exact>Home</router-link>
     <router-link to="/myprofile" class="tab" exact>My Profile</router-link>
     <router-link to="/gallery" class="tab" exact>Gallery</router-link>
     <router-link to="/contact" class="tab" exact>Contact</router-link>
-    <p>Â© KENJI_MINEMOTO All rights reserved.</p>
+    <p>© KENJI_MINEMOTO All rights reserved.</p>
   </div>
 </footer>
 </template>
@@ -47,10 +44,6 @@
   width: 30px;
   color: rgb(163, 163, 163);
   text-align: center;
-}
-
-pre {
-  width: 100%;
 }
 
 </style>
